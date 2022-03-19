@@ -3,7 +3,7 @@ description: This page is a demo that shows everything you can do inside portfol
 featured_image: '/images/headshot 2022.jpg' 
 ---
 
-![](/images/demo/demo-landscape.jpg)
+![](/images/headshot 2022.jpg)
 
 ## Demo content
 
