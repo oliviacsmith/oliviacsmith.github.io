@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Duet
+  site_title: olivia c. smith
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -20,21 +20,21 @@ menu_settings:
 footer_settings:
   logo_image: 
   logo_width: 200
-  footer_tagline: A beautiful, minimal two-column portfolio Jekyll theme
+  footer_tagline: olivia c. smith
 
 grid_settings:
   overlay_opacity: 0.8
   grid_spacing: 10
 
 contact_settings:
-  form_action: ''
+  form_action: 'https://formspree.io/f/xgedzrye'
   confirmation_url: '/thanks'
   email_subject: 'Contact form submission'
   send_button_text: 'Send Message'
 
 social_settings:
   facebook_url: ''
-  twitter_url: ''
+  twitter_url: 'https://twitter.com/oliviacs_'
   instagram_url: ''
   snapchat_url: ''
   youtube_url: ''
