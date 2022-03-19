@@ -1,4 +1,9 @@
-
+<div class="gallery" data-columns="3">
+	<img src="/images/headshot2022.jpg">
+	<img src="/images/demo/demo-landscape.jpg">
+	<img src="/images/demo/demo-square.jpg">
+	<img src="/images/demo/demo-landscape-2.jpg">
+</div>
 ---
 <div class="gallery" data-columns="3">
 	<img src="/images/headshot2022.jpg">
