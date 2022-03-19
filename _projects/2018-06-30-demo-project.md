@@ -1,8 +1,12 @@
+
 ---
-description: This page is a demo that shows everything you can do inside portfolio and blog posts.
-featured_image: '/images/headshot 2022.png' 
----
-'/images/headshot 2022.png'
+<div class="gallery" data-columns="3">
+	<img src="/images/demo/headshot 2022.png">
+	<img src="/images/demo/demo-landscape.jpg">
+	<img src="/images/demo/demo-square.jpg">
+	<img src="/images/demo/demo-landscape-2.jpg">
+</div>
+
 ## Demo content
 
 This page is a demo that shows everything you can do inside portfolio and blog posts.
