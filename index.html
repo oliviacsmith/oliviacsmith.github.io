@@ -1,39 +1,38 @@
 ---
 layout: default
 title: olivia c. smith
-description: teset
-featured_image: /images/headshot 2022.png
+description: test
+featured_image: /images/headshot2022.jpg
 ---
 
 <section class="intro">
-
-	<div class="wrap">
-
-		<h1>olivia c. smith</h1>
-		<p>MD-PhD candidate </p>
-
+	<div class="row" style="display:flex">
+		<div class="column" style="flex:50%;">
+			<img alt="Olivia Smith Headshot" src="/images/headshot2022.jpg">
+		</div>
+		<div class="column" style="flex:50%;padding-left:10px">
+			<h1>olivia c. smith</h1>
+			<p>MD-PhD candidate </p>
+			<br/>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet bibendum enim facilisis gravida neque convallis a cras. Laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Augue lacus viverra vitae congue. In fermentum et sollicitudin ac. Neque volutpat ac tincidunt vitae semper quis lectus. Sed turpis tincidunt id aliquet risus feugiat in ante metus. In est ante in nibh mauris cursus mattis molestie. Lobortis elementum nibh tellus molestie nunc. Feugiat vivamus at augue eget arcu dictum varius duis at. Gravida dictum fusce ut placerat orci. Nunc congue nisi vitae suscipit tellus. Quam nulla porttitor massa id neque aliquam. Bibendum neque egestas congue quisque egestas diam. Iaculis urna id volutpat lacus laoreet non curabitur. Eros donec ac odio tempor orci dapibus ultrices. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Sem integer vitae justo eget magna fermentum. Nulla pharetra diam sit amet nisl suscipit adipiscing. Tincidunt nunc pulvinar sapien et.</p>
+			<p>Massa ultricies mi quis hendrerit dolor magna eget. Lacus laoreet non curabitur gravida arcu ac. Nullam eget felis eget nunc lobortis. Quam id leo in vitae turpis massa sed elementum tempus. Vitae et leo duis ut. Metus dictum at tempor commodo ullamcorper a. Donec et odio pellentesque diam volutpat commodo. Pharetra et ultrices neque ornare. Lacus vestibulum sed arcu non odio. Tempor orci eu lobortis elementum nibh tellus molestie nunc non. Netus et malesuada fames ac turpis egestas.</p>
+			<p>Eget nunc lobortis mattis aliquam faucibus. Quis vel eros donec ac. Diam in arcu cursus euismod. Ipsum consequat nisl vel pretium lectus quam id. Aliquet lectus proin nibh nisl condimentum id. Porttitor leo a diam sollicitudin tempor id eu. Turpis massa tincidunt dui ut ornare. Quisque non tellus orci ac auctor. Lacus sed viverra tellus in hac. Integer malesuada nunc vel risus commodo. Quam id leo in vitae turpis massa. Nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Morbi tristique senectus et netus et. Tincidunt dui ut ornare lectus sit amet est. Egestas integer eget aliquet nibh praesent. Lacus viverra vitae congue eu consequat ac.</p>
+		</div>
 	</div>
-		
-</div>
 
+		<div class="wrap">
 
+		</div>
 </section>
 
 
-	
-<div class="gallery" data-columns="3">
-	<img src="/images/headshot2022.jpg">
-	
 <section class="portfolio">
-
 	<div class="content-wrap portfolio-wrap">
 
 		{% for project in site.projects reversed %}
 
 		<div class="portfolio-item">
-
 			<a class="portfolio-item__link" href="{{ project.url | relative_url }}">
-
 				<div class="portfolio-item__image">
 					<img src="{{ project.featured_image | relative_url }}" alt="{{ project.title }}">
 				</div>
@@ -44,13 +43,10 @@ featured_image: /images/headshot 2022.png
 						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
 					</div>
 				</div>
-
 			</a>
-
 		</div>
 
 		{% endfor %}
 
 	</div>
-
 </section>

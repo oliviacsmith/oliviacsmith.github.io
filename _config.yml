@@ -1,7 +1,7 @@
 site: olivia c. smith
 
 url: https://oliviacsmith.github.io/
-baseurl: 
+baseurl: https://oliviacsmith.github.io/
 
 collections:
   pages:
